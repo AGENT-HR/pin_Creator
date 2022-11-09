@@ -1,9 +1,15 @@
 function getPin() {
-    const genetate = Math.random() * 500;
-    const pin = 
+    const pin = Math.random() * 500;;
+    const strinngPin = pin+' ';
+    if(stringPin.length == 4){
+        return pin;
+    }
+    else{
+        return getPin();
+    }
 }
 
 function generatePin() {
     
-    console.log(genetate);
+    console.log(pin);
 }
